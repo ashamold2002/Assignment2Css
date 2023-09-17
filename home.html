@@ -4,48 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Organic Website</title>
-    <style>
-        .row{
-            
-            height:90px;
-            width:100%;
-            display: table;
-        }
-        #col1{
-            width:20%;
-              
-            float: left;  
-             
-            height:90px;      
-
-        }
-        #col2{
-            width:50%;
-            background-color: rgb(156, 34, 116);  
-            float: left; 
-            height:90px;        
-
-
-        }
-        #col3{
-            width:30%;
-            background-color: rgb(33, 156, 43); 
-            float: left; 
-            height:90px;        
-
-
-        }
-        #img{
-            height:70px;
-            padding: 10px;
-            width:200px;
-            border-radius: 70px;
-        }
-        li{
-            list-style: none;
-            float: left;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="row">
@@ -54,16 +13,54 @@
         </div>
         <div id="col2">
             <ul>
-                <li>Home</li>
-                <li>Pages</li>
-                <li>Blog</li>
-                <li>Shop</li>
-                <li>Contact</li>
+                <li style="color: rgb(113, 145, 7);">HOME</li>
+                <li>PAGES</li>
+                <li>BLOG</li>
+                <li>SHOP</li>
+                <li>CONTACT</li>
             </ul>
         </div>
-        <div id="col3"></div>
+        <div id="col3">
+            <table style="margin-left: 100px;">
+                <tr >
+                    <td><img style="width:30px;margin: 20px;" src="heart-solid.svg"></td>
+                    <td><img  style="width: 30px;margin: 20px;" src="bag-shopping-solid.svg"></td>
+                    <td  style="margin: 10px;" colspan="2"><span style="font-weight: lighter;font-size: small;font-style: oblique;">item </span><span style="font-weight: bolder;">$150.00</span></td>
+                    
+
+                </tr>
+            </table>
+        </div>
 
     </div>
-    
+    <div class="row1">
+        <div id="col4">
+            <div id="sidenav_head">
+                <span style="color: rgb(245, 246, 247);font-weight: bolder;font-family:Georgia, 'Times New Roman', Times, serif;">All Departments</span></div>
+                <ul id="sidnav_list">
+                    <li>Fresh Meat</li>
+                    <li>Vegetables</li>
+                    <li>Fruits and Nuts Gifts</li>
+                    <li>Fresh Berries</li>
+                    <li>Ocean Foods</li>
+                    <li>Butter & Eggs</li>
+                    <li>Fastfood</li>
+                    <li>Fresh Onion</li>
+                    <li>Papaya & Crisps</li>
+                    <li>Oatmeal</li>
+                    <li>Fresh Bananas</li>
+                </ul>
+            
+        </div>
+        <div id="col5">
+            <div id="row2">
+                <span class="s1">All Categories</span>
+                <span class="s1">What do you need?</span>
+                <span class="s1">Search</span>
+            </div>
+            <div id="row3"></div>
+        </div>
+    </div>
+
 </body>
 </html>
